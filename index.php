@@ -4,16 +4,18 @@ require __DIR__ . "/partials/header.php";
 ?>
 
 <section class="hero">
-  <h2>Здравей! Аз съм <span class="accent">Михаил Пеев</span></h2>
-  <p>
-    Правя уеб сайтове и малки уеб приложения. Това портфолио е направено с
-    <strong>чист PHP</strong> (includes, масиви, loops, форми).
-  </p>
-  <div class="hero-actions">
-    <a class="btn" href="projects.php">Виж проектите</a>
-    <a class="btn btn-ghost" href="contact.php">Свържи се с мен</a>
+  <div class="hero-text">
+    <h2>Здравейте! Аз съм <span class="accent">Mihail Peev</span></h2>
+    <p>
+      Правя уеб сайтове и малки уеб приложения с PHP, HTML и CSS.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <img src="assets/images/profile.jpg" alt="Mihail Peev">
   </div>
 </section>
+
 
 <section class="card">
   <h3>Умения</h3>
